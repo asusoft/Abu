@@ -2,159 +2,181 @@
 
 export default tempData = [
     {
-        name: "Основы Прогаммирование",
+        name: "Course 1",
+        type: "Lecture",
         color: "#24A6D9",
-        subs: [
+        room: "904B",
+        building: "Guk",
+        teacher: "Asusoft",
+        once: true,
+        repeats: false,
+        date: "November, 6",
+        stime: "09:30",
+        etime: "11:30",
+        days: [
             {
-                title: "Topic 1",
-                type: "Lecture",
-                color: "#24A6D9"
+                day: "Monday",
             },
             {
-                title: "Topic 2",
-                type: "Revision",
-                color: "#24A6D9"
+                day: "Thursday",
             },
+
+        ],
+        rstime: "02:30",
+        retime: "4:45",
+        todos: [
             {
-                title: "Topic 3",
-                type: "lecture",
-                color: "#24A6D9"
+                title: "Book Flight",
+                completed: false
             },
-            {
-                title: "Topic 4",
-                type: "lecture",
-                color: "#24A6D9"
-            }
         ]
     },
     {
-        name: "Course 2",
-        color: "#8022D9",
-        subs: [
+        name: "Основы",
+        type: "Practica",
+        color: "#8bf8d6",
+        room: "902B",
+        building: "bik",
+        teacher: "Asu",
+        once: true,
+        repeats: false,
+        date: "November, 8",
+        stime: "09:30",
+        etime: "11:30",
+        days: [
             {
-                title: "Topic 1",
-                type: "Lecture",
-                color: "#24A6D9"
+                day: "Monday",
             },
             {
-                title: "Topic 2",
-                type: "Revision",
-                color: "#24A6D9"
+                day: "Thursday",
             },
+
+        ],
+        rstime: "02:30",
+        retime: "4:45",
+        todos: [
             {
-                title: "Topic 3",
-                type: "lecture",
-                color: "#24A6D9"
+                title: "Book Flight",
+                completed: false
             },
-            {
-                title: "Topic 4",
-                type: "lecture",
-                color: "#24A6D9"
-            }
         ]
     },
     {
         name: "Course 3",
-        color: "#c6d2ff",
-        subs: [
+        type: "Lecture",
+        color: "#f2d9f3",
+        room: "904B",
+        building: "Guk",
+        teacher: "Asusoft",
+        once: false,
+        repeats: true,
+        date: "November, 6",
+        stime: "09:30",
+        etime: "11:30",
+        days: [
             {
-                title: "Topic 1",
-                type: "Lecture",
-                color: "#24A6D9"
+                day: "Monday",
             },
+
+        ],
+        rstime: "02:30",
+        retime: "4:45",
+        todos: [
             {
-                title: "Topic 2",
-                type: "Revision",
-                color: "#24A6D9"
+                title: "Book Flight",
+                completed: false
             },
-            {
-                title: "Topic 3",
-                type: "lecture",
-                color: "#24A6D9"
-            },
-            {
-                title: "Topic 4",
-                type: "lecture",
-                color: "#24A6D9"
-            }
         ]
     },
     {
         name: "Course 4",
-        color: "#74ffa6",
-        subs: [
+        type: "Lecture",
+        color: "#b3d199",
+        room: "904B",
+        building: "Guk",
+        teacher: "Asusoft",
+        once: false,
+        repeats: true,
+        date: "November, 6",
+        stime: "09:30",
+        etime: "11:30",
+        days: [
             {
-                title: "Topic 1",
-                type: "Lecture",
-                color: "#24A6D9"
+                day: "Monday",
             },
             {
-                title: "Topic 2",
-                type: "Revision",
-                color: "#24A6D9"
+                day: "Thursday",
             },
+
+        ],
+        rstime: "02:30",
+        retime: "4:45",
+        todos: [
             {
-                title: "Topic 3",
-                type: "lecture",
-                color: "#24A6D9"
+                title: "Book Flight",
+                completed: false
             },
-            {
-                title: "Topic 4",
-                type: "lecture",
-                color: "#24A6D9"
-            }
         ]
     },
     {
         name: "Course 5",
-        color: "#474a63",
-        subs: [
+        type: "Lecture",
+        color: "#b3d199",
+        room: "904B",
+        building: "Guk",
+        teacher: "Asusoft",
+        once: false,
+        repeats: true,
+        date: "November, 6",
+        stime: "09:30",
+        etime: "11:30",
+        days: [
             {
-                title: "Topic 1",
-                type: "Lecture",
-                color: "#24A6D9"
+                day: "Monday",
             },
             {
-                title: "Topic 2",
-                type: "Revision",
-                color: "#24A6D9"
+                day: "Thursday",
             },
+
+        ],
+        rstime: "02:30",
+        retime: "4:45",
+        todos: [
             {
-                title: "Topic 3",
-                type: "lecture",
-                color: "#24A6D9"
+                title: "Book Flight",
+                completed: false
             },
-            {
-                title: "Topic 4",
-                type: "lecture",
-                color: "#24A6D9"
-            }
         ]
     },
     {
         name: "Course 6",
-        color: "#ffa500",
-        subs: [
+        type: "Lecture",
+        color: "#b3d199",
+        room: "904B",
+        building: "Guk",
+        teacher: "Asusoft",
+        once: false,
+        repeats: true,
+        date: "November, 6",
+        stime: "09:30",
+        etime: "11:30",
+        days: [
             {
-                title: "Topic 1",
-                type: "Lecture",
-                color: "#24A6D9"
+                day: "Monday",
             },
             {
-                title: "Topic 2",
-                type: "Revision",
-                color: "#24A6D9"
+                day: "Thursday",
             },
+
+        ],
+        rstime: "02:30",
+        retime: "4:45",
+        todos: [
             {
-                title: "Topic 3",
-                type: "lecture",
-                color: "#24A6D9"
+                title: "Book Flight",
+                completed: false
             },
-            {
-                title: "Topic 4",
-                type: "lecture",
-                color: "#24A6D9"
-            }
         ]
-    }
+    },
+    
 ];

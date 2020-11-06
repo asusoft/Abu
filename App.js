@@ -287,6 +287,8 @@ const DrawerScreen = () => (
 );
 
 const App = () => {
+
+  
   const [isDarkTheme, setIsDarkTheme] = React.useState(false);
 
   const CustomDefaultTheme = {

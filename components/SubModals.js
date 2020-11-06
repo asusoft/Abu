@@ -98,15 +98,18 @@ export default class SubModal extends React.Component {
                             visible={this.state.addSubVisible}
                             onRequestClose={() => this.toggleAddSubModal()}
                             >
-                                <AddSubModal closeModal={() => this.toggleAddSubModal()} course={course} updateCourse={updateCourse}/>
+                                <AddSubModal closeModal={() => this.toggleAddSubModal()} course={course} updateCourse={updateCourse} taskCount={taskCount}/>
                             </Modal>
-                            
+                         
+                {taskCount < 1 ? <Text style={[styles.textInput, {
+                                color: colours.gray
+                            }]}> No sub classes added press the  <AntDesign name="plus" size={20} color={colours.gray} />  to add one</Text> :   
                         <FlatList
                             data={course.subs}
                             renderItem={({ item, index }) => this.renderSub(item, index)}
                             keyExtractor={(_, index) => index.toString()}
                             showsVerticalScrollIndicator={false}
-                        />
+                        />}
                         
                     </View>
                         <View style={styles.addButton}>
